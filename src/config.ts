@@ -28,21 +28,21 @@ export const siteConfig = {
       name: "AviClear — AI-Powered Aviation Briefing API",
       description:
         "Spring AI aviation API that translates METARs, TAFs, and NOTAMs into plain English via OpenAI GPT-4 function-calling. RAG retrieval over 2,400+ FAA documents loaded into PGVector. Deployed to GKE with Terraform-provisioned infra, GitHub Actions CI/CD, and kube-prometheus-stack observability.",
-      link: "https://github.com/ARK2306",
+      github: "https://github.com/ARK2306",
       skills: ["Spring AI", "OpenAI", "PGVector", "GKE", "Terraform"],
     },
     {
       name: "Nexus — Multi-Tenant Task Management API",
       description:
         "Production-grade multi-tenant REST API with Spring Boot and Spring Security 6. Tenant isolation enforced at the service layer via org-scoped JWT claims and a TenantContext ThreadLocal — cross-tenant access returns 403, never 404. PostgreSQL with Flyway, MapStruct DTOs, 70%+ service-layer test coverage with JUnit and Mockito, shipped via GitHub Actions to GHCR.",
-      link: "https://github.com/ARK2306/multi-tenant-task-api",
+      github: "https://github.com/ARK2306/multi-tenant-task-api",
       skills: ["Spring Boot", "Spring Security", "JWT", "PostgreSQL", "Docker"],
     },
     {
       name: "Vigil — Service Health Monitoring Platform",
       description:
         "Self-hosted service monitoring platform with @Scheduled health checks every 60s, SLA computation, paginated incident history, and response-time anomaly detection. Spring AI ChatClient generates plain-English root cause summaries from incident telemetry. Deployed to bare-metal Proxmox via GitHub Actions SSH; exposed over Cloudflare Tunnel with zero open inbound ports.",
-      link: "https://status.arkhomelab.com",
+      live: "https://status.arkhomelab.com",
       skills: [
         "Spring Boot",
         "Spring AI",
@@ -53,15 +53,6 @@ export const siteConfig = {
     },
   ],
   experience: [
-    {
-      company: "Vanderbilt Campus Recreation",
-      title: "Graduate Team Lead",
-      dateRange: "Aug 2024 – Present",
-      bullets: [
-        "Leading a Connect2-based digitization initiative for campus recreation operations",
-        "Coordinating across staff and student teams to ship process improvements end-to-end",
-      ],
-    },
     {
       company: "Cloud4C (a Capgemini company)",
       title: "DevOps Engineer Intern",
