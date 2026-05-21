@@ -20,3 +20,6 @@ To enable: go to **Settings → Pages → Source** and set it to **GitHub Action
 ## Customization
 
 All content lives in `src/config.ts`.
+
+Credit and Thanks to Ryan Fitzgerald for building the template for this portfolio website.
+Link to Ryan's repo: https://github.com/RyanFitzgerald/devportfolio
