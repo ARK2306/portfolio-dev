@@ -21,5 +21,6 @@ To enable: go to **Settings → Pages → Source** and set it to **GitHub Action
 
 All content lives in `src/config.ts`.
 
+Built on the devportfolio template by Ryan Fitzgerald, MIT licensed.
 Credit and Thanks to Ryan Fitzgerald for building the template for this portfolio website.
 Link to Ryan's repo: https://github.com/RyanFitzgerald/devportfolio
