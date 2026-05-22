@@ -36,6 +36,7 @@ export const siteConfig = {
       description:
         "Production-grade multi-tenant REST API with Spring Boot and Spring Security 6. Tenant isolation enforced at the service layer via org-scoped JWT claims and a TenantContext ThreadLocal — cross-tenant access returns 403, never 404. PostgreSQL with Flyway, MapStruct DTOs, 70%+ service-layer test coverage with JUnit and Mockito, shipped via GitHub Actions to GHCR.",
       github: "https://github.com/ARK2306/multi-tenant-task-api",
+      live: "https://nexus-multi-tenant-task-api.vercel.app/",
       skills: ["Spring Boot", "Spring Security", "JWT", "PostgreSQL", "Docker"],
     },
     {
