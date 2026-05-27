@@ -28,7 +28,8 @@ export const siteConfig = {
       name: "AviClear — AI-Powered Aviation Briefing API",
       description:
         "Spring AI aviation API that translates METARs, TAFs, and NOTAMs into plain English via OpenAI GPT-4 function-calling. RAG retrieval over 2,400+ FAA documents loaded into PGVector. Deployed to GKE with Terraform-provisioned infra, GitHub Actions CI/CD, and kube-prometheus-stack observability.",
-      github: "https://github.com/ARK2306",
+      github: "https://github.com/ARK2306/AviClear",
+      live: "https://avi-clear.vercel.app/",
       skills: ["Spring AI", "OpenAI", "PGVector", "GKE", "Terraform"],
     },
     {
